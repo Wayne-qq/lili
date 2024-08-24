@@ -33,15 +33,16 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 34px;
 }
 
 
 .navigation {
-    padding-top: 34px;
+
     margin-right: 67px;
-    padding-bottom: 136px;
+    margin-bottom: 136px;
     color: #464646;
-    font-family: 'Gothic A1', sans-serif;
+    font-family: Montserrat;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -389,6 +390,11 @@ line-height: normal;
     margin: 0 auto;
     align-items: center;
 }
+
+.image-container img {
+    height: 120%;
+}
+
 .left {
     margin-right: 63px;
     margin-bottom: 45px;
@@ -580,12 +586,14 @@ font-size: 48px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 15px;
 
 }
 
 .price-text h5 {
     color: #464646;
-font-family: Khula;
+    font-family: Montserrat;
+
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
