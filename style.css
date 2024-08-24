@@ -87,18 +87,16 @@ html{
   @media (max-width: 420px) {
    
     .navigation {
-        font-size: 17px;
-        margin-right: 30px;
+        font-size: 16px;
+        margin-right: 25px;
     }
   }
 
   @media (max-width: 380px) {
-    .nav {
 
-    }
     .navigation {
         font-size: 14px;
-        margin-right: 26px;
+        margin-right: 23px;
     }
   }
 
@@ -592,11 +590,11 @@ margin-bottom: 15px;
 .price-text h5 {
     color: #464646;
     font-family: Montserrat;
-
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 213.898%; /* 51.336px */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 213.898%; /* 51.336px */
+    margin-left: 50px;
 }
 
 .price-text h2 {
@@ -628,7 +626,12 @@ line-height: normal;
 
     .price-text h5 {
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.9;
+         text-align: left;
+         max-width: 300px;
+         margin-left: 13px;
+         font-weight: 300;
+
     }
 
     .price-text h2 {
