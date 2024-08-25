@@ -392,6 +392,8 @@ line-height: normal;
 .image-container img {
 }
 
+
+
 .left {
     margin-right: 63px;
     margin-bottom: 45px;
@@ -523,7 +525,10 @@ line-height: normal;
 
 }
 
-
+.main-image-price {
+    max-width: 468px;
+    max-height: 585px;
+}
 
 
 .price-h1 {
@@ -577,13 +582,16 @@ margin-bottom: 85px;
 }
 
 .price-text h1 {
-    color: #464646;
-font-family: Khula;
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: left;
+    font-family: "Kaisei HarunoUmi";
+    text-transform: uppercase;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117%; /* 42.12px */
 
 }
 
@@ -650,14 +658,29 @@ line-height: normal;
         width: 90%;
     }
     .price-text h1 {
-        font-size: 28px;
+        line-height: 1.7;
+        font-size: 26px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+        text-align: center;
     } 
     .price-text h2 {
         margin-top: 10px;
         font-size: 25px;
     }
+
+    .last__price {
+    }
+
+    .price-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
    
 }
+
+
 
 /*@media screen and (max-width: 990px) {
     .price-cont {
