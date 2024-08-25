@@ -591,7 +591,7 @@ margin-bottom: 85px;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 117%; /* 42.12px */
+    line-height: 117%; 
 
 }
 
@@ -601,9 +601,22 @@ margin-bottom: 85px;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 213.898%; /* 51.336px */
+    line-height: 213.898%; 
     margin-left: 50px;
 }
+
+.price-text h5 span {
+    font-weight: 600px;
+    color: #6b6b6b;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+
 
 .price-text h2 {
     margin-top: 20px;
